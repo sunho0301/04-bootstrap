@@ -3,31 +3,49 @@
 <head>
   <meta charset="utf-8">
   <title>Warmup</title>
-  <link rel="stylesheet" href="css/warmup.css"></link>
+  <link rel="stylesheet" href="css/warmup.css">
 </head>
 <body>
 
-  <h1>Cute Things</h1>
-  
-  <!-- 
-    Below is a "descriptive list" (dl). This is like an unordered list (ul), 
-    except it contains pairs of terms (dt) and descriptions (dd)---sort of 
-    like a dictionary.
-  
-    1. Add a new entry to the below list giving and describing something you
-    think is cute! 
+  <header>
+    <p>Header</p>
+  </header>
 
-    2. Add a second new entry whose term is "This Panda" and whose description
-    is an img tag with src "http://bit.ly/1MadBtw" (you can also pick your own
-    image!) Be sure to include an alt attribute!
-  -->
+  <article>
+    <h1>Article 1</h1>
+    <section>
+      <h1>Section 1</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </section>
+    <section class="selected">
+      <h1>Section 2</h1>
+      <p>Sit nisi nemo, tempore. Maiores, a. Quos veritatis doloribus cumque, natus explicabo eos, sit placeat at, recusandae
+        ipsam, laudantium omnis blanditiis modi</p>
+      <aside>
+        <p>Oh my!</p>
+      </aside>
+    </section>
+    <footer>
+      <p>Signed, the above</p>
+    </footer>
+  </article>
 
-  <dl>
-    <dt>Puppies</dt>
-    <dd>Baby dogs are pretty adorable</dd>
-    <dt>Kitties</dt>
-    <dd>Baby cats are even cuter than puppies! (It's the ears)</dd>    
-  </dl>
-  
+  <article>
+    <h1>Article 2</h1>
+    <p>etc...</p>
+  </article>
+
+  <article id="appendix">
+    <section>
+      <h1>Appendix</h1>
+      <aside>You bet!</aside>
+      <ul>
+        <li class="referenced"><a href="https://www.google.com">Item 1</a></li>
+        <li><a href="https://www.wikipedia.org/">Item 2</a></li>
+        <li><a href="https://ischool.uw.edu/">Item 2</a></li>
+      </ul>
+    </section>
+  </article>
+
 </body>
 </html>

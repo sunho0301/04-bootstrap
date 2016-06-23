@@ -1,11 +1,14 @@
-body {
-  background-color: #f7f7f7;
-}
+/* WITHOUT MODIFYING THE HTML, add CSS rules to produce the following (eye-searing) style: 
 
-/* 
-Add CSS rules so that:
-(a) all the text on the page has a font-family of 'Helvetica'.
-(a) the dt tags have a font-weight of 700 (bold)
-(a) Your favorite item from the list has a background-color of ivory 
-    (highlighting that you like it!). You may need to modify the HTML for this.
+* The header should have a background-color of 'tomato', and the text of its font should be 24pt.
+* The articles should have a background-color of 'lightgreen'
+* The appendix should have a background-color of 'violet'
+* Headings should have font-family of 'Helvetica', but the body text (the lorem ipsum stuff) should have a font-family of 'Times New Roman'
+* Asides should also have a font-family of 'Helvetica'.
+* The list in the appendix should also have a font 'Times New Roman'
+* The section that is selected and appendix item that is referenced should both be colored white.
+* Hyperlinks should be the same color whether or not they have been visited.
+* Bonus: have hyperlinks grow to 120% of their size when hovered or focused
+
+Challenge: Try to do this with as few rules as possible!
 */
