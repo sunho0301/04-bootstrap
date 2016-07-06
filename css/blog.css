@@ -1,3 +1,29 @@
 section header {
   background-color: lightgrey;
 }
+
+@media (max-width: 500px) {
+  body {
+    background-color: palevioletred;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    background-color: white;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+/*
+@media (max-width: 768px) {
+  body {
+    color: blue;
+    position: relative;
+  }
+}

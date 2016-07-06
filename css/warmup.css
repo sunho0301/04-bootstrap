@@ -12,3 +12,50 @@
 
 Challenge: Try to do this with as few rules as possible!
 */
+
+header {
+    background-color: tomato;
+    font-size: 24pt;
+}
+
+article {
+    background-color: lightgreen;
+}
+
+#appendix {
+    background-color: violet;
+}
+
+h1 {
+    font-family: 'Helvetica';
+}
+
+p {
+    font-family: 'Times New Roman';
+}
+
+aside {
+    font-family: 'Helvetica';
+}
+
+ul {
+    font: 'Times New Roman';
+}
+
+/* unvisitied */
+a:link {
+    color: blue;
+}
+
+/* visited */
+
+a:visited {
+    color: blue;
+}
+
+/* combined */
+
+a, a:link, a:visited {
+    color: blue;
+}
+
